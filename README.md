@@ -51,6 +51,7 @@ The first step in PCA is to standardize these features by using the `StandardSca
 Visualizing the clusters helps to graphically understand how they are arranged. 
 
 **3D graph and PCA visualization**
+
 For 3D visualization I used **3D scatter plot** with **Plotly Express**. On the graph are 3 principal components on x, y and z axis, that were created with PCA algorithm. These 3 contains most of the information in the original large set. As we can see form the graph cryptocurrency is clustered in 4 groups with similar characteristics. When hover over the specific element the graph shows label with Coin Name and its Algorithm. 
 
 <p align="center">
@@ -60,7 +61,8 @@ For 3D visualization I used **3D scatter plot** with **Plotly Express**. On the 
 <i>Figure 1: Cryptocurrencies clustered in 4 main groups</i>
 </p>
 
-**2D visualization and correlation between Total Coins Supply and Total Coins Mined **
+**2D visualization and correlation between Total Coins Supply and Total Coins Mined**
+
 For 2D visualization I used **hvPlot** a graphing library that allows deeper exploration of the data. This graph has Total Coins Supply on y-axis and Total Coins Mined on x-axis. From the graph we can see correlation between those two components. Different colors indicate different classes that specific coins belong to. When hover over the specific element the graph shows label with Coin Name and its class.
 
 <p align="center">
@@ -71,6 +73,7 @@ For 2D visualization I used **hvPlot** a graphing library that allows deeper exp
 </p>
 
 **Interactive Table**
+
 To create interactive table, I used **hvplot library**. When clicked on the header, the values in that columns are sorted. This interactive table is ideal to see what tradable coins are on the market, what algorithms and can be easily sorted by Coins Supply and Coins Mined.
 
 <p align="center">
